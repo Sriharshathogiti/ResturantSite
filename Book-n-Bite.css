@@ -1,0 +1,405 @@
+#a{
+    background-image: url(./assests/tabletop-looking-out-empty-restaurant.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+*{
+    padding:0px;
+    margin: 0px;
+}
+#navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.003);
+    position: relative;
+}
+#mainlist{
+    display:flex;
+    float:right;
+}
+.li{
+    background-color: rgba(21, 16, 16, 0.637);
+    color: white;
+    font-size: 25px;
+    list-style: none;
+    padding:10px;
+    padding-top: 25px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50px;
+}
+.active{
+  display: block;
+  overflow: hidden;
+  inset: 0;
+  content: " ";
+}
+.li:hover{
+    background-color: rgb(206, 90, 104);
+}
+#sublist{
+    list-style: none;
+    display: none;
+}
+.sli{
+    background-color:rgba(0, 0, 0, 0.292);
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    right: 10px;
+    top: 25px;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.sli:hover{
+    background-color: rgb(158, 211, 104);
+}
+#hov:hover #sublist{
+    display: block;
+}
+#Hlogo{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+   padding: 0px;
+    
+}
+#moto{
+    margin-top: 150px;
+    margin-left: 550px;
+    background-color: rgba(255, 255, 255, 0.56);
+    width: 370px;
+    height: 370px;
+    border-radius: 180px;
+    text-align: center;
+}
+#para{
+    color:black;
+    font-size:45px;
+    font-family:'Dancing Script', cursive;
+    padding-top: 60px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: #ffffff23;
+    padding: 20px 0;
+  }
+  .container1 {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(205, 160, 125, 0.29);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .container1 {
+    margin: 0 auto;
+   padding: 20px;
+    background-color:rgba(211, 154, 125, 0.079);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family:'Dancing Script', cursive;
+  }
+  
+  p {
+    line-height: 1.6;
+    font-size: larger;
+    font-family:'Dancing Script', cursive;
+  }
+  
+  /* Optional: Add some styling to make the sections visually distinct */
+  #about-us {
+    background-color:rgba(249, 247, 247, 0.7);
+    margin-top: 300px;
+  }
+  
+  #contact-details {
+    background-color: rgba(255, 255, 255, 0.858);
+  }
+
+/*----------------------------menu part-----------------------------*/
+
+#b{
+    background-image: url(./assests/menubg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+#heading
+{ 
+    font-size: 60px;
+    font-family:'Dancing Script', cursive;
+    text-align: center;
+}
+
+#i1{
+    margin-left: 150px;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 150px;
+  align-items: center;
+}
+#img1{
+    height: 150px;
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 5px 10px #cb6704;
+}
+#i2{
+    height: 200px;
+    width: 200px; 
+    float: right;
+    margin-inline-end: 10%;
+    position: relative;    
+}
+#img2{
+    width: 200px;
+    height: 150px;  
+    flex-direction: row;
+    border-radius: 50px; 
+    box-shadow: 5px 10px #6ea8c1; 
+    
+}
+#i3{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-inline-end: 20%;
+    
+} 
+#img3{
+    width: 200px;
+    height: 150px;
+    border-radius: 50px;
+    box-shadow: 5px 10px #9177cf;
+}
+#mh{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+/*---------------------------about us--------------------*/
+ #c{
+    margin: 0;
+    padding: 0;
+    background-image:url(./assests/ambience3.jpeg);
+    background-size: cover;
+    font-size: 30px;   
+    }
+  
+#abt{
+    width: 95vw;
+    height: 200vh;
+    position: relative;
+    z-index: -1;
+    font-family:'Dancing Script', cursive;
+}
+#cars1{
+    position: absolute;
+    top: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 25px;
+    margin-left: 300px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    box-shadow: 10px 10px 8px #888888;
+}
+#car1image{
+    position: relative;
+    right: 0px;
+    bottom: 70px;
+    width: 60vw;
+    
+}
+#car1heading{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+#abtpara{
+    color: white;
+    width: 800px;
+    position: absolute;
+    top: 400px;
+    margin-left: 350px;
+    font-size: 30px;
+    font-family:'Dancing Script', cursive;
+}
+/*-------------------------contact us---------------------*/
+#d{
+    background-image: url(./assests/ambience1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#cnt{
+    font-family: 'Acme', sans-serif;
+    background-color: rgba(14, 23, 30, 0.548);
+    font-size: large;
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+#phn{
+    font-size: 20px;
+}
+#em{
+    font-size: 20px;
+}
+#add{
+    font-size: 20px; 
+}
+#phn:hover{
+    color: rgb(16, 140, 178);
+}
+#em:hover{
+    color: rgb(13, 146, 199);
+}
+#add:hover{
+    color: rgb(32, 116, 184);
+}
+#i{
+    font-size: 22px;
+    width: 500px;
+    margin-left: 500px;
+    border-spacing: 20px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#msg{
+    width: 500px;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 500px;
+  
+}
+#s{
+    background-color: rgb(247, 79, 8);
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 700px;
+    border: none;
+
+}
+/*----------------------- booking-----------------------*/
+#e {
+    background-image:url(./assests/tabletop-looking-out-empty-restaurant.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color:whitesmoke;
+    background-image:url(./assests/ambience3.jpeg);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  /*-----------------------gallery-----------------*/
+  #f {
+    background-image: url(./assests/tabletop-looking-out-empty-restaurant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #gtitle{
+    color: #2c0808;
+  }
+  .gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+/* CSS for the hover zoom-in effect */
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery-container img {
+  width: 250px; /* You can adjust the width as per your requirement */
+  height: 250px; /* You can adjust the height as per your requirement */
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
+}
